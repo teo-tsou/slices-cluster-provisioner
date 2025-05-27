@@ -4,6 +4,8 @@
 
 The Cluster Provisioner is a Python-based automation framework developed to manage multi-site Kubernetes clusters using **Rancher**, **KubeVirt**, and **CDI** technologies. It provides an integrated solution for the full lifecycle of **edge/cloud-native clusters**, automating provisioning, configuration, network customization, and virtual machine deployment across distributed environments.
 
+⚠️ Beta Version Notice: This system is currently in beta and has been successfully tested across distributed nodes in Greece and France. Additional engineering efforts are required to evolve it into a production-ready commercial-grade solution.
+
 ![Cluster Provisioner Architecture](cluster-provisioner.png)
 
 ## Key Features
@@ -34,6 +36,15 @@ On the next versions we will provide Ansible scripts to auto-install the depende
 ## Architecture
 
 The architecture supports multiple **sub-management nodes** (e.g. in Greece, France, Belgium, Italy, Germany) connected to a centralized Rancher **Management Node**. Each sub-node manages **experiment planes** consisting of VMs provisioned via KubeVirt.
+
+
+## Future Enhancements
+
+* **Web UI for visual management**
+
+* **Interconnectivity between experimental VMs from different management clusters/nodes**
+
+* **Intent-based experimentation.**
 
 ---
 
