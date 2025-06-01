@@ -40,10 +40,9 @@ The architecture supports multiple **sub-management nodes** (e.g. in Greece, Fra
 
 ## Future Enhancements
 
-* **Web UI for visual management**
-
+* **Distributed Storage - Dynamic Volume Provisioner**
 * **Interconnectivity between experimental VMs from different management clusters/nodes**
-
+* **Web UI for visual management**
 * **Intent-based experimentation.**
 
 ---
